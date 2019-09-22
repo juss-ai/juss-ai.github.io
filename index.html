@@ -22,8 +22,10 @@
         }
 
         h1 {
+            margin-top: 0.2rem;
             color: #EAEAEA;
             font-size: 4rem;
+            text-align: center;
         }
 
         .hello {
@@ -37,6 +39,7 @@
             display: block;
             padding: 1rem 0.8rem;
             background: rgba(53, 175, 142, 1);
+            transition: background 0.2s ease-in;
             margin: 0.5rem 3rem 0;
             color: #15202b;
             text-decoration: none;
@@ -44,8 +47,17 @@
             font-weight: bold;
         }
 
-        a:hover {
-            background: rgba(53, 175, 142, 0.9);
+        a small {
+            font-size: 0.8rem;
+        }
+
+        a.inactive {
+            filter: grayscale(1);
+            cursor: default;
+        }
+
+        a:not(.inactive):hover {
+            background: rgba(53, 175, 142, 0.8);
         }
 
         @media (min-width: 640px) {
@@ -64,11 +76,11 @@
 <section class="hello">
     <div class="wrap">
         <h1>juss.ai</h1>
-        <a href="https://hack.juss.ai">Demo app</a><br>
-        <a href="https://xd.adobe.com/view/7780427c-b7bf-4262-458d-22750d18c8ac-01b1/?fullscreen">UX prototype</a><br>
-        <a href="https://github.com/juss-ai/olh-2019">GitHub</a><br>
-        <a href="https://juss.ai/JussaiWhitepaperV5.pdf">White paper</a><br>
-        <a href="https://docs.google.com/presentation/d/1anM0H39wjpL8I9RZ04yOPjBtuxaugmsxJtVYRJ-2Ang/edit?usp=sharing">Presentation</a><br>
+        <p><a href="https://juss.ai/JussaiWhitepaperV5.pdf">White paper</a></p>
+        <p><a href="https://xd.adobe.com/view/7780427c-b7bf-4262-458d-22750d18c8ac-01b1/?fullscreen">UX prototype</a></p>
+        <p><a href="https://github.com/juss-ai/olh-2019">Code on GitHub</a></p>
+        <p><a href="https://docs.google.com/presentation/d/1anM0H39wjpL8I9RZ04yOPjBtuxaugmsxJtVYRJ-2Ang/edit?usp=sharing">Presentation</a></p>
+        <p><a class="inactive">Demo app<br><small>no longer available due to lack of funds</small></a></p>    
     </div>
 </section>
 </body>
