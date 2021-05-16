@@ -9,6 +9,8 @@ Color palette: https://coolors.co/ff00ff-00ffff-1e0032-7fff00-ffff00
 
 /* ---------- GENERAL------------ */
 
+@import url(//db.onlinewebfonts.com/c/78355c383a5f5507a1eba592ee9f2c0a?family=Automate);
+
 * {
     margin: 0;
     padding: 0;
@@ -147,13 +149,13 @@ header{
     line-height: normal;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 50%;
+    margin-top: 10%;
 }
 
 
 .lexplore-logo-img {
     height: 200px;
-    width: 350px;
 }
 
 .demo-buttn{
@@ -169,6 +171,7 @@ header{
 .demo-buttn:hover, 
 .demo-buttn:active{
     box-shadow: 0 20px 80px 10px rgb(19, 19, 17);
+    transition: box-shadow 0.4s ease-in-out;
 }
 
 
@@ -202,7 +205,7 @@ header{
 }
 
 .about-box__right p, li{
-    color: #1E0032;
+    color: #ffffff;
     font-size: 20px;
     word-spacing: 2px;
     letter-spacing: 1px;
