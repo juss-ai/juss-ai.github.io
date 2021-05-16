@@ -20,7 +20,7 @@ Color palette: https://coolors.co/ff00ff-00ffff-1e0032-7fff00-ffff00
 html {
     width: 1824px;
     color: #16515e;
-    font-family: Helvetica, 'Automate', sans-serif;
+    font-family: Helvetica, 'Automate', 'Roboto Mono', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -30,7 +30,7 @@ html {
  /* #ff00ff6c */
 
 h3 {
-    font-family: automate;
+    font-family: 'Automate','Roboto Mono', sans-serif;
 }
 
 .main {
@@ -61,7 +61,7 @@ header{
     width: 1824px;
     background-color: #1E0032;
     height: 100px;
-    font-family: 'Automate', Helvetica, Arial;
+    font-family: 'Automate', 'Roboto Mono', Helvetica, Arial;
 }
 
 .logo { 
