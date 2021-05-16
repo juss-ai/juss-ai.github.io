@@ -20,7 +20,7 @@ Color palette: https://coolors.co/ff00ff-00ffff-1e0032-7fff00-ffff00
 html {
     width: 1824px;
     color: #16515e;
-    font-family: Helvetica, automate, sans-serif;
+    font-family: Helvetica, 'automate', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -58,10 +58,10 @@ header{
     display: flex;
     flex-direction:row;
     position: fixed;
-    width: 1850px;
+    width: 1824px;
     background-color: #1E0032;
     height: 100px;
-    font-family: automate, Helvetica, Arial;
+    font-family: 'automate', Helvetica, Arial;
 }
 
 .logo { 
