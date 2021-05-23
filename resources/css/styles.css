@@ -25,6 +25,7 @@ html {
     font-weight: 400;
     font-size: 36px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
  /* #ff00ff6c */
@@ -97,23 +98,25 @@ header{
 
 .header-menu a:link, 
 .header-menu a:visited{
-    color: #00FFFF;
+    color: #FFFF00;
     text-decoration: none;
-    font-size: 120%;
 }
 
 .header-menu a:hover, 
 .header-menu a:active{
-    border-bottom: 3px solid #00FFFF;
+    padding: 8px 0;
+    text-decoration: none;
+    border-bottom: 2px solid #00FFFF;
+    transition: border-bottom 0.3s;
 }
 
 
 /* ---------- BODY ------------ */
 
 .lexplore, .about, .pictures, .partners{
-    padding: 5% 10% 5%;
+    padding: 10% 10% 5%;
     display: flex;
-    height: 600px;
+    height: 700px;
 }
 
 /* ---------- LEXPLORE ------------ */
