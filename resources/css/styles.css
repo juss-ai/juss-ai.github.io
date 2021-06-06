@@ -30,7 +30,7 @@ html {
 
  /* #ff00ff6c */
 
-h3, label {
+h3 {
     font-family: 'Automate','Roboto Mono', sans-serif;
 }
 
@@ -113,7 +113,7 @@ header{
 
 /* ---------- BODY ------------ */
 
-.lexplore, .about, .pictures, .partners{
+.lexplore, .about, .contact, .pictures, .partners{
     padding: 10% 10% 5%;
     display: flex;
     height: 700px;
@@ -215,6 +215,35 @@ header{
     line-height: 150%;
 }
 
+/* ---------- CONTACT ------------ */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.contact h3{
+    color: #FFFF00;
+    display: block;
+    margin-top: 5%;
+}
+
+.contact-box{
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.contact-box p{
+    color: #ffffff;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 300%;
+}
+
+
 /* ---------- PICTURES ------------ */
 
 .pictures {
@@ -241,7 +270,6 @@ header{
     font-size: 15px;
     font-style: italic;
 }
-
 
 /* ---------- PARTNERS ------------ */
 
