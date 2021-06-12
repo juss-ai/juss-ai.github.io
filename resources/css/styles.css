@@ -61,7 +61,7 @@ header{
     position: fixed;
     width: 1824px;
     background-color: #1E0032;
-    height: 100px;
+    height: 120px;
     font-family: 'Automate', 'Roboto Mono', Helvetica, Arial;
 }
 
@@ -74,11 +74,20 @@ header{
     justify-content: space-between;
 }
 
-.jussai-logo-img {
-    height: 80%;
+.logo a{
+    background: url("/resources/img/jai_logo_header_no_glow.png") no-repeat;
+    display: inline-block;
+    padding: 100px 200px;
+    font-family: automate;
     margin-left: 100px;
-    margin-top: 6px;
 }
+
+.logo a:hover, 
+.logo a:active{
+    background: url("/resources/img/jai_logo_header_yes_glow.png") no-repeat;
+    transition: box-shadow 0.4s ease-in-out; 
+}
+
 
 .header-menu {
     display: flex;
@@ -163,21 +172,19 @@ header{
 }
 
 
-.lexplore-logo-img {
-    height: 200px;
-}
-
-.demo-buttn{
+.lexplore-box__right a{
+    background: url("/resources/img/lexplore_h200_no_glow.png") no-repeat;
     display: inline-block;
-    padding: 50px 50px;
+    padding: 100px 200px;
     /*box-shadow: 0 20px 80px 10px rgb(19, 19, 17);*/
     font-family: automate;
 }
 
-.demo-buttn:hover, 
-.demo-buttn:active{
-    box-shadow: 0 20px 80px 10px rgb(19, 19, 17);
-    transition: box-shadow 0.4s ease-in-out;
+.lexplore-box__right a:hover, 
+.lexplore-box__right a:active{
+    background: url("/resources/img/lexplore_h200_yes_glow.png") no-repeat;
+    /*box-shadow: 0 20px 80px 10px rgb(19, 19, 17); */
+    transition: box-shadow 0.4s ease-in-out; 
 }
 
 
