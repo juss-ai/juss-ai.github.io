@@ -113,10 +113,16 @@ header{
 
 /* ---------- BODY ------------ */
 
-.lexplore, .about, .contact, .pictures, .partners{
+.lexplore, .about, .contact, .partners{
     padding: 10% 10% 5%;
     display: flex;
     height: 700px;
+}
+
+.pictures {
+    padding: 10% 10% 5%;
+    display: flex;
+    height: 500px;
 }
 
 /* ---------- LEXPLORE ------------ */
@@ -226,18 +232,22 @@ header{
     margin-top: 5%;
 }
 
-.contact-box{
-    display: inline-block;
-    flex-direction: row;
+.contact-div {
     margin-top: 3%;
 }
 
-.contact-box p{
+.contact img {
+    display: block;
+}
+
+.contact-img tr{
     color: #ffffff;
     font-size: 20px;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    line-height: 300%;
+}
+
+.contact-img tr td{
+    padding: 10px 10px 20px 20px;
+    vertical-align: middle;
 }
 
 
@@ -311,7 +321,7 @@ header{
 .foot{
     height: 100px;
     display: flex;
-    padding: 5% 5% 5%;
+    padding: 5%;
     background-color: #1E0032;
 }
 
@@ -319,12 +329,14 @@ header{
     display: block;
     justify-self: center;
     align-self: center;
+    margin-right: 3%;
 }
 
 .foot p {
     display: block;
     justify-self: center;
     align-self: center;
+    color: #00FFFF;
 }
 
 

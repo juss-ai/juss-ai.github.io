@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="ionicon"
+   viewBox="0 0 386.17508 384"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="at-outline.svg"
+   width="386.17508"
+   height="384"
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>At</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="1.2131176"
+     inkscape:cx="198.90317"
+     inkscape:cy="230.66253"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <title
+     id="title2">At</title>
+  <path
+     d="m 256.66955,192 c -4.5,51 -40.12,80 -80.55,80 -40.43,0 -67.34,-35.82 -63.45,-80 3.89,-44.18 37.12,-80 77.55,-80 40.43,0 70.33,36 66.45,80 z"
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="32"
+     id="path4" />
+  <path
+     d="m 256.43955,353.5 c -28.56,12 -47.28,14.5 -79.28,14.5 C 79.959547,368 8.1595474,289.2 16.669547,192 25.179547,94.8 110.97955,16 208.17955,16 c 109.49,0 169.68,71.73 161.22,167.73 -6.31,71.67 -52.11,92.32 -76.09,88.07 -22.56,-4 -41.18,-24.42 -37.74,-63.5 l 8.48,-96.25"
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="32"
+     id="path6" />
+</svg>
