@@ -88,7 +88,6 @@ header{
     transition: box-shadow 0.4s ease-in-out; 
 }
 
-
 .header-menu {
     display: flex;
     flex-direction: row;
@@ -257,6 +256,16 @@ header{
     vertical-align: middle;
 }
 
+.contact-link {
+    display: block;
+    color: #ffffff;
+}
+
+.contact-link:hover,
+.contac-link:active {
+    display: block;
+    color: #FFFF00;
+}
 
 /* ---------- PICTURES ------------ */
 
