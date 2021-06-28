@@ -304,16 +304,11 @@ header{
     width: 1000px;
 }
 
-.network h3{
+.shiny h3{
     color: #FFFF00;
     display: block;
     margin-top: 10%;
     margin-bottom: 5%;
-}
-
-.shiny{
-    height: 100%;
-    width: 100%;
 }
 
 /* ---------- PARTNERS ------------ */
