@@ -92,7 +92,7 @@ header{
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    width: 50%;
+    width: 60%;
     margin-right: 3%;
 }
 
@@ -121,7 +121,7 @@ header{
 
 /* ---------- BODY ------------ */
 
-.lexplore, .about, .contact, .partners{
+.lexplore, .about, .contact, .partners {
     padding: 10% 10% 5%;
     display: flex;
     height: 700px;
@@ -292,6 +292,28 @@ header{
     color: #1E0032;
     font-size: 15px;
     font-style: italic;
+}
+
+
+/* ---------- NETWORK ------------ */
+
+.network{
+    padding: 10% 10% 5%;
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+}
+
+.network h3{
+    color: #FFFF00;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.shiny{
+    height: 100%;
+    width: 100%;
 }
 
 /* ---------- PARTNERS ------------ */
